@@ -4,17 +4,17 @@
       <router-link :to="{ name: 'Home' }" class="navbar-item" exact>
         <img src="https://i.imgur.com/oS7LVaq.png" class="image" alt="ColorElephant Logo">
       </router-link>
-      <a class="navbar-item is-hidden-desktop" href="https://www.facebook.com/ColorElephant" target="_blank">
+      <a class="navbar-item is-hidden-desktop" href="https://www.facebook.com/ColorElephant" target="_blank" rel="noopener">
         <span class="icon" style="color: #333;">
           <i class="fa fa-lg fa-facebook"></i>
         </span>
       </a>
-      <a class="navbar-item is-hidden-desktop" href="https://twitter.com/ricardojrsousa" target="_blank">
+      <a class="navbar-item is-hidden-desktop" href="https://twitter.com/ricardojrsousa" target="_blank" rel="noopener">
         <span class="icon" style="color: #55acee;">
           <i class="fa fa-lg fa-twitter"></i>
         </span>
       </a>
-      <a class="navbar-item is-hidden-desktop" href="https://instagram.com/colorelephant" target="_blank">
+      <a class="navbar-item is-hidden-desktop" href="https://instagram.com/colorelephant" target="_blank" rel="noopener">
         <span class="icon" style="color: #55acee;">
           <i class="fa fa-lg fa-instagram"></i>
         </span>
@@ -120,21 +120,21 @@
             </a>
           </div>
         </div> -->
-        <a class="navbar-item" target="_blank" href="https://colorelephant.com/blog/">Blog</a>
+        <a class="navbar-item" href="https://colorelephant.com/blog/" target="_blank" rel="noopener">Blog</a>
       </div>
 
       <div class="navbar-end">
-        <a class="navbar-item is-hidden-desktop-only" href="https://www.facebook.com/ColorElephant" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://www.facebook.com/ColorElephant" target="_blank" rel="noopener">
           <span class="icon" style="color: #333;">
             <i class="fa fa-lg fa-facebook"></i>
           </span>
         </a>
-        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/ricardojrsousa" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://twitter.com/ColorElephant" target="_blank" rel="noopener">
           <span class="icon" style="color: #55acee;">
             <i class="fa fa-lg fa-twitter"></i>
           </span>
         </a>
-        <a class="navbar-item is-hidden-desktop-only" href="https://instagram.com/colorelephant" target="_blank">
+        <a class="navbar-item is-hidden-desktop-only" href="https://instagram.com/colorelephant" target="_blank" rel="noopener">
           <span class="icon" style="color: #55acee;">
             <i class="fa fa-lg fa-instagram"></i>
           </span>
